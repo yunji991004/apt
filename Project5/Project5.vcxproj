@@ -23,6 +23,7 @@
     <ProjectGuid>{4DED0F2E-6955-4ED7-B965-81869ADAADCA}</ProjectGuid>
     <RootNamespace>Project5</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>onetong</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -147,6 +148,10 @@
     <ClCompile Include="3.cpp" />
     <ClCompile Include="4.cpp" />
     <ClCompile Include="아두이노 참조" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="NewFile.txt" />
+    <Text Include="NewFile1.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
