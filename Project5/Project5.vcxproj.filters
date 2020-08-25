@@ -46,4 +46,8 @@
       <Filter>예제</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="NewFile.txt" />
+    <Text Include="NewFile1.txt" />
+  </ItemGroup>
 </Project>
